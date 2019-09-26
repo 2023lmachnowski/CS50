@@ -66,3 +66,29 @@ else if (x=y)
 printf("x is equal to y\n");
 }
 ```
+
+```C
+#include <stdio.h>
+
+int main(void)
+{
+printf("hello, world\n");
+}
+```
+
+compile code into binary
+```C
+clang (name)
+```
+
+Scrarch: green flag
+
+```C
+./FileName
+```
+
+Name file ad convert:
+
+```C
+clang -o hello hello.c
+```
